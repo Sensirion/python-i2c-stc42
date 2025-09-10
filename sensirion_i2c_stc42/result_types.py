@@ -7,7 +7,7 @@
 #
 # Generator:     sensirion-driver-generator 1.3.4
 # Product:       stc42
-# Model-Version: 1.0.0
+# Model-Version: 1.0.1
 #
 """
 The signal classes specify transformations of the raw sensor signals into a meaningful units.

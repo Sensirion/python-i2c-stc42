@@ -7,7 +7,7 @@
 #
 # Generator:     sensirion-driver-generator 1.3.4
 # Product:       stc42
-# Model-Version: 1.0.0
+# Model-Version: 1.0.1
 #
 """
 The class Stc42DeviceBase implements the low level interface of the sensor.
@@ -331,7 +331,7 @@ class Stc42Device(Stc42DeviceBase):
 
         """
         full_scale = float(scale_factor & 4095)
-        hydrogen_ticks = int(((h2 * 32768) / full_scale) + 16384)
+        hydrogen_ticks = int(((h2 * 32768.0) / full_scale) + 16384.0)
         self.stc42.perform_forced_recalibration_ticks(hydrogen_ticks)
 
     def set_compensation_temperature(self, t):

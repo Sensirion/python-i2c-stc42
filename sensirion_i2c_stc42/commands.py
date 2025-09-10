@@ -7,7 +7,7 @@
 #
 # Generator:     sensirion-driver-generator 1.3.4
 # Product:       stc42
-# Model-Version: 1.0.0
+# Model-Version: 1.0.1
 #
 """
 The transfer classes specify the data that is transferred between host and sensor. The generated transfer classes

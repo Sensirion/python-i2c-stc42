@@ -7,7 +7,7 @@
 #
 # Generator:     sensirion-driver-generator 1.3.4
 # Product:       stc42
-# Model-Version: 1.0.0
+# Model-Version: 1.0.1
 #
 
 import pytest
@@ -88,12 +88,9 @@ def test_start_concentration_measurement1(sensor):
           )
     sensor.enable_automatic_self_calibration()
     sensor.disable_automatic_self_calibration()
-    sensor.perform_forced_recalibration_ticks(16384)
     sensor.perform_forced_recalibration(20, 40)
     sensor.set_compensation_pressure_mbar(1013)
-    sensor.set_compensation_humidity_ticks(29359)
     sensor.set_compensation_humidity(50.0)
-    sensor.set_compensation_temperature_ticks(26214)
     sensor.set_compensation_temperature(25.0)
     sensor.stop_measurement()
 
