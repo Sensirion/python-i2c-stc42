@@ -5,6 +5,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased] 
 
+## [1.1.0] - 2026-7-2
+
+### Added
+
+- low power mode interface
+- alert threshold interface
+### Changed
+
+- rename sht4x to sht41 in compensation functions
 ## [1.0.1] - 2025-9-10
 
 ### Added
@@ -17,6 +26,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Inital release of STC42 driver
 
-[Unreleased]: https://github.com/Sensirion/python-i2c-stc42/compare/1.0.1...HEAD
+[Unreleased]: https://github.com/Sensirion/python-i2c-stc42/compare/1.1.0...HEAD
+[1.1.0]: https://github.com/Sensirion/python-i2c-stc42/compare/1.0.1...1.1.0
 [1.0.1]: https://github.com/Sensirion/python-i2c-stc42/compare/1.0.0...1.0.1
 [1.0.0]: https://github.com/Sensirion/python-i2c-stc42/releases/tag/1.0.0

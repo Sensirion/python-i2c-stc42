@@ -14,7 +14,7 @@ The STC42A is a sensor for measuring hydrogen in air.
 
 
 The default I²C address of [STC42A](https://sensirion.com/products/catalog/STC42A) is **0x29**.
-Additionally supported I²C addresses are 0x2A, 0x2B.
+Additionally supported I²C addresses are 0x2a, 0x2b.
 
 
 ## Connect the sensor
@@ -30,7 +30,7 @@ For special setups you find the sensor pinout in the section below.
 | *Pin* | *Cable Color* | *Name* | *Description*  | *Comments* |
 |-------|---------------|:------:|----------------|------------|
 | 1 | black | GND | Ground |
-| 2 | red | VDD | Supply Voltage | 3.15V to 3.45V
+| 2 | red | VDD | Supply Voltage | 3.15V to 5.25V
 | 3 | blue | SDA | I2C: Serial data input / output |
 | 4 | yellow | SCL | I2C: Serial clock input |
 
